@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10520F4E2370D1C500D41536 /* AddCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10520F4D2370D1C500D41536 /* AddCategoryVC.swift */; };
 		10F4FD7F2370C764007EE2CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4FD7E2370C764007EE2CE /* AppDelegate.swift */; };
 		10F4FD812370C764007EE2CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4FD802370C764007EE2CE /* SceneDelegate.swift */; };
 		10F4FD832370C764007EE2CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4FD822370C764007EE2CE /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10520F4D2370D1C500D41536 /* AddCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryVC.swift; sourceTree = "<group>"; };
 		10F4FD7B2370C764007EE2CE /* NoteIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F4FD7E2370C764007EE2CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F4FD802370C764007EE2CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10520F4C2370D19000D41536 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				10F4FD822370C764007EE2CE /* ViewController.swift */,
+				10520F4D2370D1C500D41536 /* AddCategoryVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 		10F4FD722370C763007EE2CE = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +69,9 @@
 		10F4FD7D2370C764007EE2CE /* NoteIt */ = {
 			isa = PBXGroup;
 			children = (
+				10520F4C2370D19000D41536 /* VC */,
 				10F4FD7E2370C764007EE2CE /* AppDelegate.swift */,
 				10F4FD802370C764007EE2CE /* SceneDelegate.swift */,
-				10F4FD822370C764007EE2CE /* ViewController.swift */,
 				10F4FD842370C764007EE2CE /* Main.storyboard */,
 				10F4FD8A2370C765007EE2CE /* Assets.xcassets */,
 				10F4FD8C2370C765007EE2CE /* LaunchScreen.storyboard */,
@@ -142,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10F4FD832370C764007EE2CE /* ViewController.swift in Sources */,
+				10520F4E2370D1C500D41536 /* AddCategoryVC.swift in Sources */,
 				10F4FD7F2370C764007EE2CE /* AppDelegate.swift in Sources */,
 				10F4FD892370C764007EE2CE /* NoteIt.xcdatamodeld in Sources */,
 				10F4FD812370C764007EE2CE /* SceneDelegate.swift in Sources */,
